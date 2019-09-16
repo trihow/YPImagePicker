@@ -92,6 +92,7 @@
 		EBD66105208104EA00EA276E /* YPIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD66104208104EA00EA276E /* YPIcons.swift */; };
 		EBD66107208104F400EA276E /* YPColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD66106208104F400EA276E /* YPColors.swift */; };
 		EBE6CA48210389ED005B0A6A /* CIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE6CA47210389ED005B0A6A /* CIImage+Extensions.swift */; };
+		F4C10BAA232F6C0E00770908 /* YPImagePicker.podspec.json in Resources */ = {isa = PBXBuildFile; fileRef = F4C10BA9232F6C0E00770908 /* YPImagePicker.podspec.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -190,7 +191,6 @@
 		EB59F451208766B800811B7B /* YPVideoFiltersVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YPVideoFiltersVC.xib; sourceTree = "<group>"; };
 		EB5B07C3209146F00099C1FA /* UIButton+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
 		EB65C4B4209321420037858B /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
-		EB84ADD522F35506003667B5 /* YPImagePicker.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = YPImagePicker.podspec; sourceTree = "<group>"; };
 		EB84ADD622F355E8003667B5 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		EB867BCE209134F100332A54 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		EB94F28D208E3A140049F523 /* YPLoaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YPLoaders.swift; sourceTree = "<group>"; };
@@ -199,6 +199,7 @@
 		EBD66104208104EA00EA276E /* YPIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YPIcons.swift; sourceTree = "<group>"; };
 		EBD66106208104F400EA276E /* YPColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YPColors.swift; sourceTree = "<group>"; };
 		EBE6CA47210389ED005B0A6A /* CIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CIImage+Extensions.swift"; sourceTree = "<group>"; };
+		F4C10BA9232F6C0E00770908 /* YPImagePicker.podspec.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = YPImagePicker.podspec.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,7 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				EB84ADD622F355E8003667B5 /* Cartfile */,
-				EB84ADD522F35506003667B5 /* YPImagePicker.podspec */,
+				F4C10BA9232F6C0E00770908 /* YPImagePicker.podspec.json */,
 				99C6D69D1F1FB5C100711DB2 /* Source */,
 				99C6D6971F1FB5C100711DB2 /* Resources */,
 				52412A941CA6114A0073C4BE /* Products */,
@@ -548,6 +549,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4C10BAA232F6C0E00770908 /* YPImagePicker.podspec.json in Resources */,
 				8458057421819B95004F241C /* YPImagePickerLocalizable.strings in Resources */,
 				99C6D6B91F1FB5C100711DB2 /* Assets.xcassets in Resources */,
 				99C6D6BD1F1FB5C100711DB2 /* YPLibraryView.xib in Resources */,
