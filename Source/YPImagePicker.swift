@@ -128,7 +128,8 @@ open class YPImagePicker: UINavigationController {
                     showCropVC(photo: photo, completion: completion)
                 }
             case .video(let video):
-                if YPConfig.showsVideoTrimmer {
+                let shouldTrim = ((video.asset?.duration ?? 0.0) > YPConfig.video.trimmerMaxDuration)
+                if YPConfig.showsVideoTrimmer && shouldTrim {
                     let videoFiltersVC = YPVideoFiltersVC.initWith(video: video,
                                                                    isFromSelectionVC: false)
                     videoFiltersVC.didSave = { [weak self] outputMedia in
