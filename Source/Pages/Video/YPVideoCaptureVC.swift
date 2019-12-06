@@ -134,6 +134,11 @@ public class YPVideoCaptureVC: UIViewController, YPPermissionCheckable {
         updateState {
             $0.isRecording = true
         }
+        
+        v.shotButton.isEnabled = false
+        DispatchQueue.main.asyncAfter(deadline: .now() + YPConfig.video.minimumTimeLimit) {
+            self.v.shotButton.isEnabled = true
+        }
     }
     
     private func stopRecording() {
