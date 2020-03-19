@@ -37,8 +37,6 @@ public class YPSelectionsGalleryCell: UICollectionViewCell {
         editSquare.CenterY == editIcon.CenterY
         editSquare.CenterX == editIcon.CenterX
         
-        removeButton.top(12).trailing(12)
-        
         layer.shadowColor = UIColor.black.cgColor
         layer.shadowOpacity = 0.2
         layer.shadowOffset = CGSize(width: 4, height: 7)

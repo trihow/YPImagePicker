@@ -147,10 +147,6 @@ open class YPImagePicker: UINavigationController {
             }
         }
     }
-	
-	open override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
-		return [.portrait]
-	}
     
     deinit {
         print("Picker deinited 👍")
