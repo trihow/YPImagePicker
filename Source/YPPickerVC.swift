@@ -169,7 +169,10 @@ open class YPPickerVC: YPBottomPager, YPBottomPagerDelegate {
         } else if let cameraVC = vc as? YPCameraVC {
             cameraVC.start()
         } else if let videoVC = vc as? YPVideoCaptureVC {
-            videoVC.start()
+			// Workaround for issue https://github.com/Yummypets/YPImagePicker/issues/404
+			DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+				videoVC.start()
+			}
         }
     
         updateUI()
