@@ -102,6 +102,8 @@ class LibraryMediaManager {
                 transform.ty -= cropRect.minY
                 layerInstructions.setTransform(transform, at: CMTime.zero)
                 
+                videoCompositionTrack.preferredTransform = transform
+                
                 // CompositionInstruction
                 let mainInstructions = AVMutableVideoCompositionInstruction()
                 mainInstructions.timeRange = trackTimeRange
